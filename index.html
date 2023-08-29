@@ -26,7 +26,19 @@
 
     <br/>
     <br/>
-    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+  $(function() {
+    var counter = 0;
+    $(document).on("click", function() {
+      counter++;
+      $("#access-counter").text(counter);
+    });
+  });
+  </script>  
+  <div id="access-counter"></div>
+
 <!-- hitwebcounter Code START -->
 <a href="https://www.hitwebcounter.com" target="_blank">
     <img src="https://hitwebcounter.com/counter/counter.php?page=8917601&style=0006&nbdigits=7&type=page&initCount=0" title="Counter Widget" Alt="Visit counter For Websites"   border="0" />
